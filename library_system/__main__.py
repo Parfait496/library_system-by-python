@@ -1,6 +1,6 @@
 
-from .core import Book, Library
-from .utils import borrow_item
+from library_system.core import Book, Library
+from library_system.utils import borrow_item
 
 def main():
     library = Library(user_role="Admin")
